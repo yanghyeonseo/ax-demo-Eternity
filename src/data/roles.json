@@ -1,0 +1,38 @@
+{
+  "defaultRole": "Quality Engineer",
+  "roles": [
+    {
+      "role": "Production Staff",
+      "description": "Production floor user responsible for quick defect reporting.",
+      "permissions": {
+        "dashboard": "limited",
+        "fieldInput": "full",
+        "traceability": "basic",
+        "defectRecords": "own",
+        "settings": "none"
+      }
+    },
+    {
+      "role": "Quality Engineer",
+      "description": "Quality team user responsible for defect analysis and traceability.",
+      "permissions": {
+        "dashboard": "full",
+        "fieldInput": "full",
+        "traceability": "full",
+        "defectRecords": "full",
+        "settings": "view"
+      }
+    },
+    {
+      "role": "Production Manager",
+      "description": "Manager responsible for monitoring quality KPIs, risk, and cost impact.",
+      "permissions": {
+        "dashboard": "full",
+        "fieldInput": "view",
+        "traceability": "full",
+        "defectRecords": "full",
+        "settings": "view"
+      }
+    }
+  ]
+}

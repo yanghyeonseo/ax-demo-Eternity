@@ -1,0 +1,115 @@
+{
+  "products": [
+    "Rugged Phone",
+    "Industrial Smartphone",
+    "Smart Watch",
+    "Special-purpose Wearable Device",
+    "Communication Module Device"
+  ],
+  "modules": [
+    "PCB",
+    "Display Module",
+    "Battery / Power Module",
+    "Camera / Sensor Module",
+    "Mechanical Housing",
+    "Antenna / RF Module",
+    "Firmware",
+    "Assembly",
+    "Reliability",
+    "Final QA",
+    "Packaging"
+  ],
+  "processes": [
+    "Incoming Material Inspection",
+    "PCB SMT Line",
+    "PCB Functional Test",
+    "Display Module Inspection",
+    "Display Calibration",
+    "Battery & Power Module Test",
+    "Camera / Sensor Module Test",
+    "Mechanical Housing Inspection",
+    "Housing Fit Check",
+    "Main Assembly",
+    "Firmware Flashing",
+    "RF / Connectivity Test",
+    "Aging / Burn-in Test",
+    "Final Quality Inspection",
+    "Packaging & Shipment"
+  ],
+  "defectTypes": [
+    "Housing Gap / Waterproof Seal Failure",
+    "Solder Bridge",
+    "LTE Signal Instability",
+    "Display Color Shift",
+    "Charging Current Variation",
+    "Camera Focus Deviation",
+    "Firmware Flash Failure",
+    "Cosmetic Scratch",
+    "Button Misalignment",
+    "Thermal Shutdown",
+    "Label Mismatch",
+    "Box Dent",
+    "Open Circuit",
+    "Minor Surface Scratch"
+  ],
+  "lines": [
+    "Line A",
+    "Line B",
+    "Line C",
+    "Line D",
+    "SMT Line 1",
+    "SMT Line 2",
+    "RF Test Line 1",
+    "Aging Line 1",
+    "Final QA Line",
+    "Packaging Line 1"
+  ],
+  "severities": ["Info", "Warning", "Critical"],
+  "statuses": [
+    "Assigned",
+    "In Progress",
+    "Pending Review",
+    "Retest Scheduled",
+    "Reworked",
+    "Verified",
+    "Closed"
+  ],
+  "defectCodeMapping": [
+    {
+      "defectCode": "D-001",
+      "defectType": "Housing Gap / Waterproof Seal Failure",
+      "module": "Mechanical Housing",
+      "process": "Housing Fit Check"
+    },
+    {
+      "defectCode": "D-002",
+      "defectType": "Solder Bridge",
+      "module": "PCB",
+      "process": "PCB SMT Line"
+    },
+    {
+      "defectCode": "D-003",
+      "defectType": "LTE Signal Instability",
+      "module": "Antenna / RF Module",
+      "process": "RF / Connectivity Test"
+    },
+    {
+      "defectCode": "D-004",
+      "defectType": "Display Color Shift",
+      "module": "Display Module",
+      "process": "Display Calibration"
+    },
+    {
+      "defectCode": "D-005",
+      "defectType": "Charging Current Variation",
+      "module": "Battery / Power Module",
+      "process": "Battery & Power Module Test"
+    },
+    {
+      "defectCode": "D-006",
+      "defectType": "Firmware Flash Failure",
+      "module": "Firmware",
+      "process": "Firmware Flashing"
+    }
+  ]
+}

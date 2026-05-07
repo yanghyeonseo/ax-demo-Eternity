@@ -1,0 +1,37 @@
+[
+  {
+    "id": "AL-001",
+    "severity": "Critical",
+    "process": "Housing Fit Check",
+    "message": "Rugged Phone batch ET-RP-260507-A03 shows waterproof seal failure above threshold.",
+    "timestamp": "2026-05-07 10:05"
+  },
+  {
+    "id": "AL-002",
+    "severity": "Warning",
+    "process": "PCB SMT Line",
+    "message": "Smart Watch batch ET-SW-260507-B01 shows increased solder bridge defects.",
+    "timestamp": "2026-05-07 10:15"
+  },
+  {
+    "id": "AL-003",
+    "severity": "Warning",
+    "process": "RF / Connectivity Test",
+    "message": "Industrial Smartphone batch ET-IP-260507-C02 shows LTE signal instability during RF test.",
+    "timestamp": "2026-05-07 11:05"
+  },
+  {
+    "id": "AL-004",
+    "severity": "Warning",
+    "process": "Display Calibration",
+    "message": "Smart Watch batch ET-SW-260507-B02 shows display color shift during calibration.",
+    "timestamp": "2026-05-07 11:28"
+  },
+  {
+    "id": "AL-005",
+    "severity": "Warning",
+    "process": "Aging / Burn-in Test",
+    "message": "Special-purpose Wearable Device batch ET-WD-260507-D02 requires burn-in retest.",
+    "timestamp": "2026-05-07 14:28"
+  }
+]

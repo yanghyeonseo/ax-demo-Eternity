@@ -1,0 +1,424 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1778119545653,
+  "projectRoot": "/Users/yanghyeonseo/Desktop/ax-demo-Eternity",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "react",
+        "version": "19.2.5",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.2.5",
+        "category": "frontend"
+      },
+      {
+        "name": "vite",
+        "version": "8.0.10",
+        "category": "build"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": null,
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc -b && vite build",
+      "lint": "eslint .",
+      "preview": "vite preview"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "docs",
+      "public",
+      "src"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 2,
+      "lastAccessed": 1778119545636,
+      "keyFiles": [
+        "AX_DefectOps_Eternity_AI_Agent_SPEC.md",
+        "AX_DefectOps_Eternity_Planning_Context.md"
+      ]
+    },
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 2,
+      "lastAccessed": 1778119545636,
+      "keyFiles": [
+        "favicon.svg",
+        "icons.svg"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 4,
+      "lastAccessed": 1778119545643,
+      "keyFiles": [
+        "App.css",
+        "App.tsx",
+        "index.css",
+        "main.tsx"
+      ]
+    },
+    "src/assets": {
+      "path": "src/assets",
+      "purpose": "Static assets",
+      "fileCount": 3,
+      "lastAccessed": 1778119545647,
+      "keyFiles": [
+        "hero.png",
+        "react.svg",
+        "vite.svg"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "tsconfig.app.json",
+      "accessCount": 3,
+      "lastAccessed": 1778120648486,
+      "type": "file"
+    },
+    {
+      "path": "vite.config.ts",
+      "accessCount": 2,
+      "lastAccessed": 1778120045989,
+      "type": "file"
+    },
+    {
+      "path": "index.html",
+      "accessCount": 2,
+      "lastAccessed": 1778120047457,
+      "type": "file"
+    },
+    {
+      "path": "src/index.css",
+      "accessCount": 2,
+      "lastAccessed": 1778120055866,
+      "type": "file"
+    },
+    {
+      "path": "src/App.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1778120589612,
+      "type": "file"
+    },
+    {
+      "path": "src/main.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1778120590847,
+      "type": "file"
+    },
+    {
+      "path": "src/components/layout/Sidebar.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1778120636459,
+      "type": "file"
+    },
+    {
+      "path": "src/components/layout/RoleSwitcher.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1778120639059,
+      "type": "file"
+    },
+    {
+      "path": "src/components/dashboard/CostByLineChart.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1778120662836,
+      "type": "file"
+    },
+    {
+      "path": "src/components/dashboard/DefectTrendChart.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1778120664795,
+      "type": "file"
+    },
+    {
+      "path": "docs/AX_DefectOps_Eternity_Planning_Context.md",
+      "accessCount": 1,
+      "lastAccessed": 1778119767873,
+      "type": "file"
+    },
+    {
+      "path": "docs/AX_DefectOps_Eternity_AI_Agent_SPEC.md",
+      "accessCount": 1,
+      "lastAccessed": 1778119769126,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 1,
+      "lastAccessed": 1778119769622,
+      "type": "file"
+    },
+    {
+      "path": "src/App.css",
+      "accessCount": 1,
+      "lastAccessed": 1778119775227,
+      "type": "file"
+    },
+    {
+      "path": "tsconfig.json",
+      "accessCount": 1,
+      "lastAccessed": 1778119776768,
+      "type": "file"
+    },
+    {
+      "path": "eslint.config.js",
+      "accessCount": 1,
+      "lastAccessed": 1778119777598,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 1,
+      "lastAccessed": 1778119777970,
+      "type": "file"
+    },
+    {
+      "path": "src/types/index.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778120070110,
+      "type": "file"
+    },
+    {
+      "path": "src/data/dashboard.json",
+      "accessCount": 1,
+      "lastAccessed": 1778120079336,
+      "type": "file"
+    },
+    {
+      "path": "src/data/processFlow.json",
+      "accessCount": 1,
+      "lastAccessed": 1778120108612,
+      "type": "file"
+    },
+    {
+      "path": "src/data/defectRecords.json",
+      "accessCount": 1,
+      "lastAccessed": 1778120133478,
+      "type": "file"
+    },
+    {
+      "path": "src/data/batches.json",
+      "accessCount": 1,
+      "lastAccessed": 1778120155597,
+      "type": "file"
+    },
+    {
+      "path": "src/data/alerts.json",
+      "accessCount": 1,
+      "lastAccessed": 1778120160315,
+      "type": "file"
+    },
+    {
+      "path": "src/data/masterData.json",
+      "accessCount": 1,
+      "lastAccessed": 1778120170649,
+      "type": "file"
+    },
+    {
+      "path": "src/data/roles.json",
+      "accessCount": 1,
+      "lastAccessed": 1778120174815,
+      "type": "file"
+    },
+    {
+      "path": "src/store/AppStore.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778120200960,
+      "type": "file"
+    },
+    {
+      "path": "src/components/common/StatusBadge.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778120209621,
+      "type": "file"
+    },
+    {
+      "path": "src/components/common/SeverityBadge.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778120213036,
+      "type": "file"
+    },
+    {
+      "path": "src/components/common/KpiCard.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778120221216,
+      "type": "file"
+    },
+    {
+      "path": "src/components/common/FloatingChatbot.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778120241486,
+      "type": "file"
+    },
+    {
+      "path": "src/components/layout/Header.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778120278653,
+      "type": "file"
+    },
+    {
+      "path": "src/components/layout/AppLayout.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778120281240,
+      "type": "file"
+    },
+    {
+      "path": "src/components/dashboard/ProcessNode.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778120300010,
+      "type": "file"
+    },
+    {
+      "path": "src/components/dashboard/ProcessFlowMap.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778120322427,
+      "type": "file"
+    },
+    {
+      "path": "src/components/dashboard/ProcessDetailPanel.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778120343386,
+      "type": "file"
+    },
+    {
+      "path": "src/components/dashboard/AnomalyAlertCard.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778120372537,
+      "type": "file"
+    },
+    {
+      "path": "src/components/dashboard/RecentDefectRecords.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778120381669,
+      "type": "file"
+    },
+    {
+      "path": "src/components/field-input/FieldInputForm.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778120415310,
+      "type": "file"
+    },
+    {
+      "path": "src/components/field-input/RecentInputs.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778120423168,
+      "type": "file"
+    },
+    {
+      "path": "src/components/field-input/SubmissionSuccessCard.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778120437034,
+      "type": "file"
+    },
+    {
+      "path": "src/components/traceability/BatchSearch.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778120444298,
+      "type": "file"
+    },
+    {
+      "path": "src/components/traceability/BatchSummary.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778120459594,
+      "type": "file"
+    },
+    {
+      "path": "src/components/traceability/ModuleQualityStatus.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778120461543,
+      "type": "file"
+    },
+    {
+      "path": "src/components/traceability/BatchTimeline.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778120468526,
+      "type": "file"
+    },
+    {
+      "path": "src/components/traceability/ResponseTracking.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778120477086,
+      "type": "file"
+    },
+    {
+      "path": "src/components/records/FilterBar.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778120489999,
+      "type": "file"
+    },
+    {
+      "path": "src/components/records/DefectRecordTable.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778120501908,
+      "type": "file"
+    },
+    {
+      "path": "src/components/records/DefectDetailModal.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778120518104,
+      "type": "file"
+    },
+    {
+      "path": "src/pages/DashboardPage.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778120541935,
+      "type": "file"
+    },
+    {
+      "path": "src/pages/FieldInputPage.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778120548429,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

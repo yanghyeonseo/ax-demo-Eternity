@@ -1,0 +1,150 @@
+[
+  {
+    "batchId": "ET-RP-260507-A03",
+    "product": "Rugged Phone",
+    "serialRange": "RP-A03-001 ~ RP-A03-500",
+    "line": "Line A",
+    "status": "Under Review",
+    "yieldRate": 96.4,
+    "defectCount": 32,
+    "owner": "Quality Engineer Lin",
+    "mainIssue": "Housing Gap / Waterproof Seal Failure",
+    "moduleStatus": [
+      { "module": "PCB", "status": "Passed" },
+      { "module": "Display", "status": "Passed" },
+      { "module": "Battery", "status": "Passed" },
+      { "module": "Camera/Sensor", "status": "Passed" },
+      { "module": "Housing", "status": "Critical" },
+      { "module": "RF", "status": "Pending" }
+    ],
+    "timeline": [
+      { "time": "08:10", "event": "Incoming Material Inspection completed", "status": "Passed" },
+      { "time": "09:00", "event": "PCB Functional Test completed", "status": "Passed" },
+      { "time": "09:20", "event": "Display Calibration completed", "status": "Passed" },
+      { "time": "09:35", "event": "Battery & Power Module Test completed", "status": "Passed" },
+      { "time": "10:05", "event": "Housing Fit Check detected waterproof seal failure", "status": "Critical" },
+      { "time": "10:20", "event": "Response assigned to Quality Engineer Lin", "status": "Assigned" },
+      { "time": "11:10", "event": "Mechanical tolerance review started", "status": "In Progress" }
+    ]
+  },
+  {
+    "batchId": "ET-SW-260507-B01",
+    "product": "Smart Watch",
+    "serialRange": "SW-B01-001 ~ SW-B01-800",
+    "line": "SMT Line 2",
+    "status": "Under Review",
+    "yieldRate": 97.8,
+    "defectCount": 18,
+    "owner": "Quality Engineer Park",
+    "mainIssue": "Solder Bridge",
+    "moduleStatus": [
+      { "module": "PCB", "status": "Warning" },
+      { "module": "Display", "status": "Passed" },
+      { "module": "Battery", "status": "Passed" },
+      { "module": "Housing", "status": "Passed" },
+      { "module": "RF", "status": "Passed" }
+    ],
+    "timeline": [
+      { "time": "08:30", "event": "Incoming Material Inspection completed", "status": "Passed" },
+      { "time": "09:40", "event": "PCB SMT Line reported solder bridge defects", "status": "Warning" },
+      { "time": "10:15", "event": "SMT line inspection assigned to Production Staff Kim", "status": "Assigned" },
+      { "time": "11:25", "event": "PCB Functional Test sampling started", "status": "In Progress" }
+    ]
+  },
+  {
+    "batchId": "ET-IP-260507-C02",
+    "product": "Industrial Smartphone",
+    "serialRange": "IP-C02-001 ~ IP-C02-300",
+    "line": "RF Test Line 1",
+    "status": "Retest Scheduled",
+    "yieldRate": 97.1,
+    "defectCount": 16,
+    "owner": "Quality Engineer Chen",
+    "mainIssue": "LTE Signal Instability",
+    "moduleStatus": [
+      { "module": "PCB", "status": "Passed" },
+      { "module": "Display", "status": "Passed" },
+      { "module": "Battery", "status": "Passed" },
+      { "module": "Camera/Sensor", "status": "Passed" },
+      { "module": "Firmware", "status": "Reworked" },
+      { "module": "RF", "status": "Warning" }
+    ],
+    "timeline": [
+      { "time": "09:10", "event": "Firmware flashing completed", "status": "Passed" },
+      { "time": "10:50", "event": "RF / Connectivity Test detected LTE signal instability", "status": "Warning" },
+      { "time": "11:05", "event": "RF chamber retest scheduled", "status": "Retest Scheduled" },
+      { "time": "14:06", "event": "Firmware flash failure reworked", "status": "Reworked" }
+    ]
+  },
+  {
+    "batchId": "ET-WD-260507-D01",
+    "product": "Special-purpose Wearable Device",
+    "serialRange": "WD-D01-001 ~ WD-D01-450",
+    "line": "Line C",
+    "status": "Verified",
+    "yieldRate": 98.9,
+    "defectCount": 5,
+    "owner": "Quality Engineer Yoon",
+    "mainIssue": "Charging Current Variation",
+    "moduleStatus": [
+      { "module": "PCB", "status": "Passed" },
+      { "module": "Display", "status": "Passed" },
+      { "module": "Battery", "status": "Verified" },
+      { "module": "Housing", "status": "Passed" },
+      { "module": "RF", "status": "Passed" }
+    ],
+    "timeline": [
+      { "time": "08:20", "event": "Incoming Material Inspection completed", "status": "Passed" },
+      { "time": "09:35", "event": "Battery & Power Module Test found charging current variation", "status": "Info" },
+      { "time": "10:15", "event": "Power cycle retest completed", "status": "Verified" }
+    ]
+  },
+  {
+    "batchId": "ET-RP-260507-A02",
+    "product": "Rugged Phone",
+    "serialRange": "RP-A02-001 ~ RP-A02-500",
+    "line": "Line A",
+    "status": "In Progress",
+    "yieldRate": 98.1,
+    "defectCount": 13,
+    "owner": "Quality Engineer Lin",
+    "mainIssue": "Button Misalignment",
+    "moduleStatus": [
+      { "module": "PCB", "status": "Passed" },
+      { "module": "Display", "status": "Passed" },
+      { "module": "Battery", "status": "Passed" },
+      { "module": "Housing", "status": "Info" },
+      { "module": "Assembly", "status": "Warning" },
+      { "module": "RF", "status": "Pending" }
+    ],
+    "timeline": [
+      { "time": "10:40", "event": "Mechanical Housing Inspection found cosmetic scratches", "status": "Info" },
+      { "time": "13:42", "event": "Main Assembly detected button misalignment", "status": "Warning" },
+      { "time": "14:20", "event": "Assembly jig inspection scheduled", "status": "In Progress" }
+    ]
+  },
+  {
+    "batchId": "ET-SW-260507-B03",
+    "product": "Smart Watch",
+    "serialRange": "SW-B03-001 ~ SW-B03-900",
+    "line": "Packaging Line 1",
+    "status": "Closed",
+    "yieldRate": 99.2,
+    "defectCount": 1,
+    "owner": "Production Staff Lee",
+    "mainIssue": "Box Dent",
+    "moduleStatus": [
+      { "module": "PCB", "status": "Passed" },
+      { "module": "Display", "status": "Passed" },
+      { "module": "Battery", "status": "Passed" },
+      { "module": "Housing", "status": "Passed" },
+      { "module": "RF", "status": "Passed" },
+      { "module": "Packaging", "status": "Closed" }
+    ],
+    "timeline": [
+      { "time": "12:00", "event": "Final Quality Inspection passed", "status": "Passed" },
+      { "time": "15:22", "event": "Packaging & Shipment reported box dent", "status": "Info" },
+      { "time": "15:40", "event": "Packaging lot checked and closed", "status": "Closed" }
+    ]
+  }
+]

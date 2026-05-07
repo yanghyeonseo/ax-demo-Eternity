@@ -1,0 +1,40 @@
+{
+  "company": "Eternity",
+  "industry": "EMS / ODM",
+  "currentYieldRate": 98.7,
+  "targetYieldRate": 99.5,
+  "defectRate": 1.3,
+  "criticalBatches": 3,
+  "avgResponseTime": 42,
+  "inputCompletionRate": 91,
+  "fieldAdoptionRate": 87,
+  "riskLevel": "Elevated",
+  "defectTrend": [
+    { "date": "2026-05-01", "defectRate": 1.1, "yieldRate": 98.9 },
+    { "date": "2026-05-02", "defectRate": 1.2, "yieldRate": 98.8 },
+    { "date": "2026-05-03", "defectRate": 1.0, "yieldRate": 99.0 },
+    { "date": "2026-05-04", "defectRate": 1.4, "yieldRate": 98.6 },
+    { "date": "2026-05-05", "defectRate": 1.3, "yieldRate": 98.7 },
+    { "date": "2026-05-06", "defectRate": 1.6, "yieldRate": 98.4 },
+    { "date": "2026-05-07", "defectRate": 1.8, "yieldRate": 98.2 }
+  ],
+  "costByCategory": [
+    { "category": "Scrap Cost", "amount": 18500 },
+    { "category": "Rework Cost", "amount": 32700 },
+    { "category": "Claim Penalty", "amount": 9400 }
+  ],
+  "costByLine": [
+    { "line": "Line A", "scrap": 5200, "rework": 12400, "claim": 3000 },
+    { "line": "SMT Line 2", "scrap": 2800, "rework": 6800, "claim": 0 },
+    { "line": "RF Test Line 1", "scrap": 1800, "rework": 7300, "claim": 1200 },
+    { "line": "Final QA Line", "scrap": 3400, "rework": 6200, "claim": 1800 },
+    { "line": "Line B", "scrap": 2300, "rework": 3900, "claim": 700 }
+  ],
+  "defectByProcess": [
+    { "process": "Housing Fit Check", "defectCount": 32, "defectRate": 4.8 },
+    { "process": "PCB SMT Line", "defectCount": 18, "defectRate": 2.7 },
+    { "process": "RF / Connectivity Test", "defectCount": 14, "defectRate": 2.2 },
+    { "process": "Display Calibration", "defectCount": 9, "defectRate": 1.5 },
+    { "process": "Final Quality Inspection", "defectCount": 8, "defectRate": 1.2 }
+  ]
+}
