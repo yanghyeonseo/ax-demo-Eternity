@@ -33,5 +33,40 @@
     "process": "Aging / Burn-in Test",
     "message": "Special-purpose Wearable Device batch ET-WD-260507-D02 requires burn-in retest.",
     "timestamp": "2026-05-07 14:28"
+  },
+  {
+    "id": "AL-006",
+    "severity": "Critical",
+    "process": "Housing Fit Check",
+    "message": "Second Rugged Phone lot ET-RP-260507-A04 also shows waterproof seal trend — supplier escalation recommended.",
+    "timestamp": "2026-05-07 14:42"
+  },
+  {
+    "id": "AL-007",
+    "severity": "Info",
+    "process": "Final Quality Inspection",
+    "message": "Daily QA digest ready: 11 batches inspected, 2 closed, 3 under review.",
+    "timestamp": "2026-05-07 15:10"
+  },
+  {
+    "id": "AL-008",
+    "severity": "Warning",
+    "process": "PCB SMT Line",
+    "message": "SMT Line 1 stencil cleaning interval exceeded — preventive maintenance due.",
+    "timestamp": "2026-05-07 15:24"
+  },
+  {
+    "id": "AL-009",
+    "severity": "Info",
+    "process": "Camera / Sensor Module Test",
+    "message": "Industrial Smartphone sensor module yield trending +0.4% vs. last week.",
+    "timestamp": "2026-05-07 15:40"
+  },
+  {
+    "id": "AL-010",
+    "severity": "Critical",
+    "process": "RF / Connectivity Test",
+    "message": "Antenna lot AN-2026-04-K shows recurring LTE drop across 3 batches — quarantine recommended.",
+    "timestamp": "2026-05-07 16:02"
   }
 ]

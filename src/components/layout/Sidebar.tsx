@@ -9,6 +9,8 @@ import {
 } from "lucide-react";
 import { useAppStore } from "@/store/AppStore";
 import type { PageId } from "@/types";
+import { NotificationBell } from "./NotificationBell";
+import { RoleSwitcher } from "./RoleSwitcher";
 
 const NAV: { id: PageId; label: string; icon: LucideIcon; hint?: string }[] = [
   { id: "dashboard", label: "Dashboard", icon: LayoutDashboard, hint: "Process & KPI" },
@@ -78,12 +80,9 @@ export function Sidebar() {
         </ul>
       </nav>
 
-      <div className="m-3 rounded-xl border border-white/10 bg-white/5 p-3 text-[11px] text-slate-300">
-        <p className="font-semibold text-white">Demo · Phase 2</p>
-        <p className="mt-1 leading-snug text-slate-400">
-          Standardized operation interface for daily production & quality work. AI
-          assistant is a placeholder for future Phase 3.
-        </p>
+      <div className="space-y-2 border-t border-white/5 p-3">
+        <NotificationBell />
+        <RoleSwitcher />
       </div>
     </aside>
   );

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import type { LucideIcon } from "lucide-react";
-import { ChevronDown, ShieldCheck, HardHat, BarChart3 } from "lucide-react";
+import { ChevronUp, ShieldCheck, HardHat, BarChart3 } from "lucide-react";
 import { useAppStore } from "@/store/AppStore";
 import type { UserRole } from "@/types";
 
@@ -48,24 +48,26 @@ export function RoleSwitcher() {
       <button
         type="button"
         onClick={() => setOpen((o) => !o)}
-        className="flex items-center gap-2.5 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-sm shadow-sm transition hover:border-navy-300 hover:shadow-md"
+        className="flex w-full items-center gap-3 rounded-lg border border-white/5 bg-white/[0.03] px-3 py-2.5 text-left transition hover:border-white/10 hover:bg-white/10"
       >
-        <span className="flex h-7 w-7 items-center justify-center rounded-full bg-gradient-to-br from-navy-500 to-navy-700 text-[11px] font-semibold text-white">
+        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-sky-400 to-navy-400 text-[11px] font-bold text-navy-900 shadow-inner">
           {initials}
         </span>
-        <span className="flex flex-col items-start leading-tight">
-          <span className="text-[10.5px] uppercase tracking-wider text-slate-500">
+        <span className="flex min-w-0 flex-1 flex-col leading-tight">
+          <span className="text-[10px] uppercase tracking-widest text-slate-400">
             Logged in
           </span>
-          <span className="font-semibold text-slate-800">{role}</span>
+          <span className="truncate text-[12.5px] font-semibold text-white">
+            {role}
+          </span>
         </span>
-        <ChevronDown
-          className={`h-4 w-4 text-slate-400 transition ${open ? "rotate-180" : ""}`}
+        <ChevronUp
+          className={`h-3.5 w-3.5 shrink-0 text-slate-400 transition ${open ? "rotate-180" : ""}`}
         />
       </button>
 
       {open && (
-        <div className="absolute right-0 top-full z-40 mt-2 w-72 rounded-xl border border-slate-200 bg-white p-1.5 shadow-xl shadow-slate-900/10">
+        <div className="absolute bottom-0 left-full z-40 ml-3 w-72 rounded-xl border border-slate-200 bg-white p-1.5 shadow-xl shadow-slate-900/10">
           <p className="px-3 pb-1.5 pt-2 text-[10px] font-semibold uppercase tracking-widest text-slate-400">
             Switch Role (Mock)
           </p>

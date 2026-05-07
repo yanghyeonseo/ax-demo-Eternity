@@ -126,6 +126,18 @@
       "type": "file"
     },
     {
+      "path": "src/components/layout/RoleSwitcher.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1778121372673,
+      "type": "file"
+    },
+    {
+      "path": "src/components/layout/Sidebar.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1778121384331,
+      "type": "file"
+    },
+    {
       "path": "vite.config.ts",
       "accessCount": 2,
       "lastAccessed": 1778120045989,
@@ -156,18 +168,6 @@
       "type": "file"
     },
     {
-      "path": "src/components/layout/Sidebar.tsx",
-      "accessCount": 2,
-      "lastAccessed": 1778120636459,
-      "type": "file"
-    },
-    {
-      "path": "src/components/layout/RoleSwitcher.tsx",
-      "accessCount": 2,
-      "lastAccessed": 1778120639059,
-      "type": "file"
-    },
-    {
       "path": "src/components/dashboard/CostByLineChart.tsx",
       "accessCount": 2,
       "lastAccessed": 1778120662836,
@@ -177,6 +177,18 @@
       "path": "src/components/dashboard/DefectTrendChart.tsx",
       "accessCount": 2,
       "lastAccessed": 1778120664795,
+      "type": "file"
+    },
+    {
+      "path": "src/data/alerts.json",
+      "accessCount": 2,
+      "lastAccessed": 1778121342776,
+      "type": "file"
+    },
+    {
+      "path": "src/components/layout/AppLayout.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1778121386897,
       "type": "file"
     },
     {
@@ -252,12 +264,6 @@
       "type": "file"
     },
     {
-      "path": "src/data/alerts.json",
-      "accessCount": 1,
-      "lastAccessed": 1778120160315,
-      "type": "file"
-    },
-    {
       "path": "src/data/masterData.json",
       "accessCount": 1,
       "lastAccessed": 1778120170649,
@@ -303,12 +309,6 @@
       "path": "src/components/layout/Header.tsx",
       "accessCount": 1,
       "lastAccessed": 1778120278653,
-      "type": "file"
-    },
-    {
-      "path": "src/components/layout/AppLayout.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1778120281240,
       "type": "file"
     },
     {
