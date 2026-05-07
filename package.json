@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:pages": "tsc -b && vite build --mode pages && cp dist/index.html dist/404.html && touch dist/.nojekyll",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -25,6 +26,7 @@
     "eslint": "^10.2.1",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
+    "gh-pages": "^6.3.0",
     "globals": "^17.5.0",
     "tailwindcss": "^4.2.4",
     "typescript": "~6.0.2",
