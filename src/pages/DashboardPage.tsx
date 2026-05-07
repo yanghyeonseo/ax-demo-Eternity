@@ -24,52 +24,61 @@ export function DashboardPage() {
   const isLimited = role === "Production Staff";
 
   return (
-    <div className="flex flex-col gap-5 pb-8">
+    <div className="flex flex-col gap-4 pb-8">
       {/* KPI ROW */}
-      <div className="grid grid-cols-5 gap-4">
-        <KpiCard
-          label="Yield Rate"
-          value={dashboardData.currentYieldRate.toFixed(1)}
-          unit="%"
-          hint={`Target ${dashboardData.targetYieldRate.toFixed(1)}%`}
-          tone="good"
-          trend="down"
-          trendValue="-0.2%"
-          icon={<Gauge className="h-4 w-4" />}
-        />
-        <KpiCard
-          label="Defect Rate"
-          value={dashboardData.defectRate.toFixed(1)}
-          unit="%"
-          hint="Last 24h"
-          tone="warning"
-          trend="up"
-          trendValue="+0.3%"
-          icon={<AlertTriangle className="h-4 w-4" />}
-        />
-        <KpiCard
-          label="Critical Batches"
-          value={dashboardData.criticalBatches}
-          hint="Under urgent review"
-          tone="critical"
-          icon={<AlertOctagon className="h-4 w-4" />}
-        />
-        <KpiCard
-          label="Avg Response Time"
-          value={dashboardData.avgResponseTime}
-          unit="min"
-          hint="Across open defects"
-          trend="down"
-          trendValue="-8 min"
-          icon={<Clock className="h-4 w-4" />}
-        />
-        <KpiCard
-          label="Risk Level"
-          value={dashboardData.riskLevel}
-          hint={`Input ${dashboardData.inputCompletionRate}% · Adoption ${dashboardData.fieldAdoptionRate}%`}
-          tone="warning"
-          icon={<Target className="h-4 w-4" />}
-        />
+      <div className="sticky top-[-1.5rem] z-20 -mx-6 -mt-6 border-b border-slate-300 bg-white/96 backdrop-blur">
+        <div className="grid grid-cols-5 divide-x divide-slate-200">
+          <KpiCard
+            label="Yield Rate"
+            value={dashboardData.currentYieldRate.toFixed(1)}
+            unit="%"
+            hint={`Target ${dashboardData.targetYieldRate.toFixed(1)}%`}
+            tone="good"
+            trend="down"
+            trendValue="-0.2%"
+            icon={<Gauge className="h-3.5 w-3.5" />}
+            layout="strip"
+          />
+          <KpiCard
+            label="Defect Rate"
+            value={dashboardData.defectRate.toFixed(1)}
+            unit="%"
+            hint="Last 24h"
+            tone="warning"
+            trend="up"
+            trendValue="+0.3%"
+            icon={<AlertTriangle className="h-3.5 w-3.5" />}
+            layout="strip"
+          />
+          <KpiCard
+            label="Critical Batches"
+            value={dashboardData.criticalBatches}
+            hint="Urgent review"
+            tone="critical"
+            icon={<AlertOctagon className="h-3.5 w-3.5" />}
+            layout="strip"
+          />
+          <KpiCard
+            label="Avg Response Time"
+            value={dashboardData.avgResponseTime}
+            unit="min"
+            hint="Open defects"
+            trend="down"
+            trendValue="-8 min"
+            icon={<Clock className="h-3.5 w-3.5" />}
+            layout="strip"
+          />
+          <KpiCard
+            label="Risk Level"
+            value={dashboardData.riskLevel}
+            hint={`Input ${dashboardData.inputCompletionRate}%`}
+            trend="flat"
+            trendValue={`Adopt ${dashboardData.fieldAdoptionRate}%`}
+            tone="warning"
+            icon={<Target className="h-3.5 w-3.5" />}
+            layout="strip"
+          />
+        </div>
       </div>
 
       {/* PROCESS MAP + DETAIL */}
